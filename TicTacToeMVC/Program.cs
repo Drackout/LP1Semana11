@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace TicTacToeMVC
 {
@@ -6,9 +7,18 @@ namespace TicTacToeMVC
     {
         static void Main(string[] args)
         {
-            
-            List<Player> list = new List<Player>() {"P1", "P2"};
-            
+            //player list
+            List<Player> playerList = new List<Player>() {"P1", "P2"};
+
+
+            //controller
+            Controller controller = new Controller(playerList);
+
+            View newView = new View(controller);
+
+
+
+
         }
     }
 }

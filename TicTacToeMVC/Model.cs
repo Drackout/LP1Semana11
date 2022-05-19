@@ -1,14 +1,9 @@
-﻿using System;
+﻿using System.Collections.Generic;
 
 namespace TicTacToeMVC
 {
     class Model
     {
-        static void Main(string[] args)
-        {
-            
-            
-            
-        }
+
     }
 }

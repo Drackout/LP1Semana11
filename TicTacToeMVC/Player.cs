@@ -1,9 +1,10 @@
 ﻿using System;
 
-namespace PlayerManagerMVC
+namespace TicTacToeMVC
 {
-    public class Player : IComparable<Player>
+    public class Player
     {
+        
         public string Name { get; }
 
         public Player(string name){
