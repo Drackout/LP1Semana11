@@ -7,8 +7,7 @@ namespace PlayerManagerMVC
         private static void Main()
         {
             // List of player is our model
-            List<Player> list = new List<Player>()
-            {
+            List<Player> list = new List<Player>(){
                 new Player("Pedro", 50),
                 new Player("Verde", 42),
             };
