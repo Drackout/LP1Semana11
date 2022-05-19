@@ -2,12 +2,12 @@
 
 namespace TicTacToeMVC
 {
-    class Program
+    class View
     {
         static void Main(string[] args)
         {
             
-            List<Player> list = new List<Player>() {"P1", "P2"};
+            
             
         }
     }
